@@ -1,0 +1,51 @@
+* {
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.title {
+  font-size:64px;
+  background-color:darkgoldenrod;
+  color:azure;
+  font-weight:700;
+  text-align:center;
+}
+
+.list-main {
+  font-size:36px;
+  text-align:center;
+}
+
+.header-container {
+  display:flex;
+  width:100%;
+  justify-content:center;
+}
+
+.ingredient-container {
+  width:40%;
+  margin:0 10px;
+}
+
+.step {
+  line-height:1.2em;
+  margin:10px;
+}
+
+.ingredient {
+  background-color:lightgrey;
+}
+
+.ingredient:nth-child(odd) {
+  background-color:white;
+}
+
+img {
+  width:40%;
+}
+
+h2 {
+  font-size:36px;
+  background-color:darkolivegreen;
+  color:white;
+  padding:10px 5px;
+}
